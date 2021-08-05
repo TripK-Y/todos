@@ -1,1 +1,10 @@
-<p>todos works!</p>
+<div class="todo-card">
+	<h3>{{todoInput.title}}</h3>
+	<p *ngIf="hideShowDetails">
+		id: {{todoInput.id}}
+		<br />completed: {{todoInput.completed}}
+	</p>
+	<button (click)="completeStatus()">Completed</button>
+	<button class="button-margin" (click)="detailsTodo()">Details</button>
+	<button class="button-margin" (click)="deleteTodo()">Delete</button>
+</div>

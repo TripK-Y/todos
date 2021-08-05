@@ -1,0 +1,38 @@
+/* div that holds everything */
+.todo-form{ 
+    height: 100%;
+    color: #66ab8c;
+    background-color: #efefef;
+}
+
+/* To do form header */
+.todo-form h1 {
+    margin: 0px 0px 10px 0px;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Form div wrapper */
+.form-wrapper {
+    position: relative;
+    margin: auto;
+    padding: 10px 0px 10px 10px;
+    background-color: #caebf2;
+    border-radius: 5px;
+    min-height: 85px;
+    width: 300px;
+}
+
+/* Submit button in form */
+.form-wrapper form button{
+    position: absolute;
+    right: 0px;
+    margin: 0px 10px 0px 0px;
+}
+
+/* Drop down menu in form */
+.form-wrapper form select{
+    width: 70px;
+		padding: 2px;
+}

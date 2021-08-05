@@ -1,1 +1,9 @@
-<p>sidebar works!</p>
+<div class="todos-list-div">
+	<h1>Todos List</h1>
+	<div class="todos-container">
+		<ng-container *ngFor="let todo of todos">
+			<app-todos [todoInput]="todo"></app-todos>
+		</ng-container>
+	</div>
+</div>
+

@@ -1,0 +1,33 @@
+<div class="todo-form">
+	<h1>Welcome to the Todos List!</h1>
+
+	<div class="form-wrapper">
+		<form [formGroup]="createTodoForm" (ngSubmit)="addTodo()">
+			<div>
+				<label for="id" style="padding-left: 57px;">
+					Id:
+				</label>
+				<input id="id" type="text" formControlName="id">
+			</div>
+
+			<div>
+				<label for="title" style="padding-left: 41px;">
+					Title:
+				</label>
+				<input id="title" type="text" formControlName="title">
+			</div>
+
+			<div>
+				<label for="completed">
+					Completed:
+				</label>
+				<select name="completed" id="completed" formControlName="completed">
+					<option value="false">false</option>
+					<option value="true">true</option>
+				</select>
+			</div>
+
+			<button class="button" type="submit">Submit</button>
+		</form>
+	</div>
+</div>

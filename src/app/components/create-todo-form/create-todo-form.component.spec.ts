@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DataServiceComponent } from './data-service.component';
+import { CreateTodoFormComponent } from './create-todo-form.component';
 
-describe('DataServiceComponent', () => {
-  let component: DataServiceComponent;
-  let fixture: ComponentFixture<DataServiceComponent>;
+describe('CreateTodoFormComponent', () => {
+  let component: CreateTodoFormComponent;
+  let fixture: ComponentFixture<CreateTodoFormComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DataServiceComponent ]
+      declarations: [ CreateTodoFormComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DataServiceComponent);
+    fixture = TestBed.createComponent(CreateTodoFormComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

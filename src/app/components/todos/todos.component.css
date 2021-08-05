@@ -1,0 +1,25 @@
+
+
+.todo-card {
+    margin: 0px 0px 15px 20px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    width: 85%;
+    display: inline-block;
+}
+
+.todo-card h3 {
+    margin: 0px 0px 5px 0px;
+    font-weight: 500;
+    color: #666565;
+}
+
+.todo-card button {
+    float: right;
+    height: 25px;
+}
+
+.button-margin{
+    margin-right: 5px;
+}
